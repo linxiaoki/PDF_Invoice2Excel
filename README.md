@@ -23,17 +23,17 @@ Python提取PDF发票内容保存到Excel
 
   程序会把发票中的内容提取出来然后写入Excel中，一个示例的发票内容如下：
 
-  ![](images/demo.png)
+  ![发票](images/demo.PNG)
 
   而多份PDF的提取结果示意如下：
 
-  ![](images/Capture.png)
+  ![](images/Capture.PNG)
 
   这里提取的关键词可自定义，只需要把需要的关键字写在Excel中即可。
 
   程序的运行使用很简单，只要在可视化界面中输入相应的文件路径然后运行即可，程序界面示意如下：
 
-  ![](images/gui.png)
+  ![](images/gui.PNG)
 
 - 程序开发思路：开发主要涉及三个点：其一就是PDF解析，其二是提取规则，其三就是Excel保存。
 
